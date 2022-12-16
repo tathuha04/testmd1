@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Test 1</title>
+    <style>
+        .head {
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+            padding-top: 20px;
+        }
+
+        #add {
+            background-color: tomato;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- bài 2 -->
+    <div class="container">
+        <div class="head">
+            <input type="text" placeholder="nhập tên nhân viên RA: ">
+            <button id="add">Thêm</button>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>hoe 2</td>
+                        <td>
+                            <button id="delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Quang</td>
+                        <td>
+                            <button id="delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Hoàng</td>
+                        <td>
+                            <button id="delete">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script>
+        /*
+        bài 1:
+        Cho 1 chuỗi str. Viết chương trình đảo ngược chuỗi và in ra kết quả.
+        , không sử dụng hàm reverse()
+        */
+        // function reverse(str) {
+        //     var str1 = ""
+        //     for (var i = str.length - 1; i >= 0; i--) {
+        //         str1 += str[i];
+        //     }
+        //     console.log(str1);
+        //     return str1;
+        // }
+        // reverse('abcd');
+
+
+
+        /*
+        bài 2:
+        Viết 1 chương trình với đầu vào là 1 chuỗi ký tự và in ra chuỗi đó với các ký tự đầu của chữ mỗi chữ được viết hoa.
+        */
+        // function toUpperCase() {
+        //     let str = prompt("nhập chuỗi:");
+        //     let arr = str.split(" ");
+        //     console.log(arr);
+        //     let a = "";
+        //     for (let i = 0; i < arr.length; i++) {
+        //         arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);
+        //         a += arr[i] + " ";
+        //     }
+        //     console.log(a);
+        // }
+        // toUpperCase()
+
+        /*
+        bài 3:
+        Viết một chương trình xóa các phần tử trùng của một mảng và in ra kết quả
+        */
+
+        // function deleteArr(arr) {
+        //     var arr1 = [];
+        //     for (let i = 0; i < arr.length; i++) {
+        //         if (arr1.indexOf(arr[i]) === -1) {
+        //             arr1.push(arr[i])
+        //         }
+        //     }
+        //     console.log(arr1);
+        //     return arr1
+        // }
+        // // deleteArr([“one”,”two”,”three”,”one”,”one”,”four”,”five”,”four”,”five”]);
+        // deleteArr([1, 2, 3, 4, 4, 5, 6, 6, 7, 8, 0]);
+
+        /*
+        bài 4:
+        Viết một chương sắp xếp các phần tử là số ở trong mảng theo thứ tự tăng dần
+        */
+        // let array = [5, 2, 3, 4, 1];
+        // let temp = array[0];
+        // for (let i = 0; i < array.length; i++) {
+        //     for (let j = 0; j < array.length; j++) {
+        //         if (array[j] > array[i]) {
+        //             temp = array[i];
+        //             array[i] = array[j];
+        //             array[j] = temp;
+        //         }
+        //     }
+        // }
+        // console.log(array);
+
+
+        /*
+        bài 5:
+        Tạo một mảng gồm 3 nhân viên Rikkei Academy (tên nhân viên).
+        Xây dựng chương trình quản lý nhân viên với các chức năng (Read, Create, Update, Delete)
+        */
+
+        let array = ["hoe 2", "Quang", "Hoàng"];
+
+
+
+
+        /*
+        bài 6:
+        Viết chương trình cho phép người dùng nhập vào ngày tháng năm.
+        */
+
+
+
+    </script>
+</body>
+
+</html>
